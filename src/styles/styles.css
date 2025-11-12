@@ -1,0 +1,30 @@
+@import url(./global.css); /*Importando o CSS global para o styles*/
+
+
+body{
+    background-color: var(--color-ceruleanfrost2);
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:10px ;
+    padding: 10px 0px;
+    background-color: var(--color-ceruleanfrost);
+    height: 90px;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    color: var(--color-rosa-pastel);
+}
+
+.detalheflores{
+    display: flex;
+    justify-content: flex-end;
+}
