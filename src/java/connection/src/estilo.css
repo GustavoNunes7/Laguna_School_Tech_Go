@@ -1,19 +1,19 @@
 @import url(./global.css); /*Importando o CSS global para o styles*/
 
-/*LOGIN E SENHA*/
-.login_e_senha_body{
+
+body{
     background-image: url(/Laguna_School_Tech_Go-main/src/assets/image/Login-e-Senha/foto-de-fundo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-   
-    
+
+
 }
 /*HEADER
 /* header{
     display:flex;
     background-color: var( --color-ceruleanfrost);
     align-items: flex-start;
-   
+
 } */
 
 .container-logo{
@@ -21,10 +21,10 @@
   justify-content:space-between;
   align-items: center;
   background-color: var(--color-ceruleanfrost);
-  
+
 }
 
-.login_e_senha_main{
+main{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -54,77 +54,12 @@
 .container-login button{
     border: 1.5px solid var(--color-rosa-pastel);
     width: 100px;
-    
+
 }
 
 .container-login a{
   font-family: Arial;
   color: black;
   text-decoration: underline;
-  
-}
-
-/*FIM LOGIN E SENHA*/
-
-
-
-/*SOBRE A EMPRESA*/
-.sobre_a_empresa_body{
-    background-color: var(--color-ceruleanfrost2);
-}
-
-.sobre_a_empresa_main{
-    display: flex;
-    justify-content:flex-start;
-    text-align: center;
-}
-
-.container-sobre-empresa{
-    margin-top: 80px;
-    margin-left: 200px;
-    
 
 }
-
- .container-img{
-    margin-left: 100px;
-    margin-top:40px;
- }
-
- .contato{
-   display: flex;
-    justify-content:center;
-    text-align: center;
-    margin-left: 80px;
- }
-.trabalhador{
-    border-radius: 100%;
-}
-
-.funcionarios{
-    border-radius: 40px;
-    padding: 20px;
-    background-color: var(--color-azul-ciano);
-    height: 269px ;
-    width: 245px ;
-    text-align: center;
-}
-
-.clt{
-    padding: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    
-}
-
-.funcionarios{
-    box-shadow: 0 4px 5px rgb(63, 98, 143);
-}
-
-.funcionarios:hover{
-    transform: scale(1.05);
-    box-shadow: 0 4px 5px rgb(63, 98, 143);
-}
-
