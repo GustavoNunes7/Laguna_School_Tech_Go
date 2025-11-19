@@ -2,11 +2,10 @@
 
 /*LOGIN E SENHA*/
 .login_e_senha_body{
-    background-image: url(/Laguna_School_Tech_Go-main/src/assets/image/Login-e-Senha/foto-de-fundo.jpeg);
+    background-image: var(--img-castelo-fundo);
     background-repeat: no-repeat;
     background-size: cover;
-   
-    
+
 }
 /*HEADER
 /* header{
@@ -80,17 +79,11 @@
 }
 
 .container-sobre-empresa{
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 200px;
-    height: 240px;
-    width: 500px;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #9cc7f891;
+    
 
 }
-
-
 
  .container-img{
     margin-left: 100px;
@@ -134,25 +127,37 @@
     box-shadow: 0 4px 5px rgb(63, 98, 143);
 }
 
-/* main {
-    display: flex;
-    align-items: center;
-} */
 
+
+.container-agenda-fazer {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start;
+    gap: 50px; 
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.agenda{
+    text-align: center;
+ 
+}
 
 .fazer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#EDFDFF;
-  width: 240px;
-  height: 240px;
-  border: 1px solid #EDFDFF;
-  border-radius: 25px;
-
+  background-color: var( --color-cinza);
+  width: 680px;
+  height: 780px;
+  border: 1px solid var( --color-cinza);
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 50px;
 
 }
-
 
 .container1,.container2,.container3{
  display: flex;
@@ -168,9 +173,67 @@
   border: 1px solid #EDFDFF;
   border-radius: 25px;
 }
-.agenda{
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 50px;
+
+.titulo{
+     width: 400px;
+     height: 50px;
+     background-color: var(--color-rosa);
+     color: black;
+     border-radius: 6px;
+     text-align: center;
+     align-self: flex-start;  
+     margin: 0 auto;
+     
 }
 
+.informações{
+    width: 400px;
+     height: 50px;
+     background-color: var(--color-ceruleanfrost);
+     color: black;
+     border-radius: 6px;
+     text-align: center;
+     align-self: flex-start;  
+}
+
+.atividade{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var( --color-cinza);
+  width: 680px;
+  height: 380px;
+  border: 1px solid var( --color-cinza);
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 50px;
+
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-btn-header  {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    margin-left: 300px;
+    height: 50px;
+    width: 100px;
+
+}
+
+.registro{
+    margin-top: 40px;
+    
+    margin-left: 90px;
+}

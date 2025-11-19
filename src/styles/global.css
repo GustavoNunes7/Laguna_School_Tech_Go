@@ -21,7 +21,6 @@
     --color-azul-ciano: #3E98D0;
     --color-azul-forte: #245ACF;
     --color-azul-palido: #E6F8FF;
-    --color-ciano-marinho:#51A7B1;
 
     /*Fontes*/
 
@@ -32,6 +31,9 @@
     --font-inknut-antiqua-regular-text: 12px;
     --font-inknut-antiqua-regular-link: 18px;
 
+    /*Imagens*/
+    --img-castle-fundo: url(/Laguna_School_Tech_Go/foto-de-fundo.jpeg);
+
 }
 
 p{
@@ -39,7 +41,6 @@ p{
     width:462px;
     font-size: var(--font-inknut-antiqua-regular-link);
     line-height: 25px;
-    margin-top: 20px;
     
 }
 h2{
@@ -49,9 +50,4 @@ h2{
 
 .slogan{
     font-size: 17px;
-}
-
-h3{
-   font-size: var(--font-inknut-antiqua-regular-link);
-   color: var( --color-ciano-marinho); 
 }
