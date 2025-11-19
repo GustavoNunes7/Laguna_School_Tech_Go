@@ -80,11 +80,17 @@
 }
 
 .container-sobre-empresa{
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 200px;
-    
+    height: 240px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #9cc7f891;
 
 }
+
+
 
  .container-img{
     margin-left: 100px;
@@ -126,5 +132,45 @@
 .funcionarios:hover{
     transform: scale(1.05);
     box-shadow: 0 4px 5px rgb(63, 98, 143);
+}
+
+/* main {
+    display: flex;
+    align-items: center;
+} */
+
+
+.fazer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#EDFDFF;
+  width: 240px;
+  height: 240px;
+  border: 1px solid #EDFDFF;
+  border-radius: 25px;
+
+
+}
+
+
+.container1,.container2,.container3{
+ display: flex;
+ gap: 20px;
+ justify-content: flex-start;
+ margin-top: 20px;
+}
+
+.box{
+  background-color:#EDFDFF;
+  width: 240px;
+  height: 240px;
+  border: 1px solid #EDFDFF;
+  border-radius: 25px;
+}
+.agenda{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 

@@ -1,0 +1,65 @@
+@import url(./global.css); /*Importando o CSS global para o styles*/
+
+
+body{
+    background-image: url(/Laguna_School_Tech_Go-main/src/assets/image/Login-e-Senha/foto-de-fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+/*HEADER
+/* header{
+    display:flex;
+    background-color: var( --color-ceruleanfrost);
+    align-items: flex-start;
+
+} */
+
+.container-logo{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: var(--color-ceruleanfrost);
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 200px;
+}
+
+.container-login{
+    border: 3px solid var(--color-ceruleanfrost);
+    background-color: var(--color-azul-palido);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba (0,0,0,0,0.2);
+
+}
+
+.container-login input, button{
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 7px;
+}
+
+
+.container-login button{
+    border: 1.5px solid var(--color-rosa-pastel);
+    width: 100px;
+
+}
+
+.container-login a{
+  font-family: Arial;
+  color: black;
+  text-decoration: underline;
+
+}
